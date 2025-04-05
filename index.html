@@ -15,7 +15,82 @@
   <title>Frontend Mentor | Tip calculator app</title>
 </head>
 <body>
-
+  <div class="logo">
+    <img src="images/logo.svg" alt="Splitter" class="logoImage">
+  </div>
+  <div class="mainContainer">
+    <div class="leftPart">
+      <div class="topLeft">
+        <div class="infoText">
+          <p class="leftText">Bill</p>
+        </div>
+        <div class="billField">
+          <img src="images/icon-dollar.svg" alt="Dollar Icon" class="dollarIcon">
+          <input type="number" name="billAmount" id="billAmount" placeholder="0" class="billInput">
+        </div>
+      </div>
+      <div class="middleLeft">
+        <div class="tipText">
+          <p class="leftText">Select Tip %</p>
+        </div>
+        <div class="tipField">
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage" value="5">5%</button>
+          </div>
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage" value="10">10%</button>
+          </div>
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage" value="15">15%</button>
+          </div>
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage" value="25">25%</button>
+          </div>
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage" value="50">50%</button>
+          </div>
+          <div class="tipBox">
+            <button class="tipButton" name="tipPercentage">Custom</button>
+          </div>
+        </div>
+      </div>
+      <div class="bottomLeft">
+        <div class="peopleText">
+          <p class="leftText">Number of People</p>
+        </div>
+        <div class="peopleField">
+          <img src="images/icon-person.svg" alt="Person Icon" class="personIcon">
+          <input type="number" name="numberOfPeople" id="numberOfPeople" placeholder="0" class="peopleInput">
+        </div>
+    </div>
+    <div class="rightPart">
+      <div class="topRight">
+        <div class="tipDisplay">
+          <div class="topRightLeft">
+            <p class="rightText">Tip Amount</p>
+            <p class="rightSmallText">/ person</p>
+          </div>
+          <div class="topRightRight">
+            <p class="rightDollarText">$0.00</p>
+          </div>
+        </div>
+        <div class="totalDisplay">
+          <div class="topRightLeft">
+            <p class="rightText">Total</p>
+            <p class="rightSmallText">/ person</p>
+          </div>
+          <div class="topRightRight">
+            <p class="rightDollarText">$0.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottomRight">
+        <div class="resetButton">
+          <button class="resetButtonText">RESET</button>
+        </div>
+      </div>
+    </div>
+  </div>
  
 </body>
 </html>
