@@ -16,3 +16,187 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    background-color: var(--grey200);
+    color: var(--grey900);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.logo {
+    margin: 8rem 0 4rem 0;
+}
+
+.mainContainer {
+    background-color: var(--white);
+    padding: 2rem;
+    width: auto;
+    border-radius: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    width: 360px;
+}
+
+.topLeft {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.infoText {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.leftText {
+    font-size: 1rem;
+    font-weight: var(--font-weight);
+    color: var(--grey500);
+}
+
+.billField {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight);
+    color: var(--green400);
+    position: relative;
+}
+
+.dollarIcon {
+    font-size: 1.5rem;
+    color: var(--green400);
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+}
+
+.billInput {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    color: var(--grey400);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    outline: none;
+    background-color: var(--grey50);
+    text-align: right;
+}
+
+.middleLeft {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.tipText {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.tipField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipBox {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.8rem 0.5rem 0rem;
+    outline: none;
+    width: 33%;
+}
+
+.tipButton {
+    font-family: var(--font-family);
+    background-color: var(--green900);
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: var(--font-weight);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.tipBox:last-of-type > .tipButton {
+    background-color: var(--grey50);
+    color: var(--grey500);
+    font-weight: var(--font-weight);
+}
+
+.bottomLeft {
+    width: 100%;
+}
+
+.peopleText {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.peopleField {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight);
+    color: var(--green400);
+    position: relative;
+}
+
+.personIcon {
+    font-size: 1.5rem;
+    color: var(--green400);
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+}
+
+.peopleInput {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    color: var(--grey400);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    outline: none;
+    background-color: var(--grey50);
+    text-align: right;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
